@@ -1,0 +1,120 @@
+:root {
+
+    --primary-very-Dark-Blue: hsl(243, 87%, 12%);
+    --primary-desaturated-Blue: hsl(238, 22%, 44%);
+    --acent-bright-Blue: hsl(224, 93%, 58%);
+    --acent-moderate-Cyan: hsl(170, 45%, 43%);
+    --neutral-Light-Grayish-Blue: hsl(240, 75%, 98%);
+    --neutral-Light-Gray: hsl(0, 0%, 75%);
+}
+
+* {
+    margin: 5px;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: initial;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400, 700;
+    color: var(--primary-very-Dark-Blue);
+
+}
+
+#logo {
+    margin-right: 1000px;
+}
+
+.nav-bar ul li {
+    display: inline-flex;
+    justify-content: center;
+    /* position: 858px 26px; */
+    /* size: 87px 28px; */
+    opacity: 100%;
+    color: var(--primary-very-Dark-Blue);
+    /* size: 16px; */
+    /* letter-spacing: 0px 28px; */
+    font-family: 'Raleway', sans-serif;
+    list-style: none;
+
+}
+
+.nav-bar li a {
+    margin: 10px;
+    /* font-size: 16px; */
+    font-family: 'Raleway', sans-serif;
+    /* line-height: 28px; */
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color: var(--primary-desaturated-Blue);
+}
+
+.art-welcome {
+    font-family: 'Open Sans', sans-serif;
+    color: var(--primary-very-Dark-Blue);
+    margin-top: 200px;
+    margin-left: 50px;
+    font-weight: 400;
+    /* padding: 80px;
+    padding-top: 0;
+    margin-top: 29px;
+    letter-spacing: 0;
+    padding-bottom: 0;
+    margin-bottom: 24px; */
+}
+
+.art-welcome .welcome {
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.art-welcome .welcome2 {
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+/* .art-welcome button {
+    width: 15.69%;
+    margin-top: 56px;
+    margin-bottom: 5px;
+    height: 56px;
+} */
+
+.parrafo {
+    font-family: 'Open Sans', sans-serif;
+    color: var(--primary-very-Dark-Blue);
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    margin: 20px;
+}
+
+.card-title {
+    position: absolute;
+    top: 6rem;
+    left: 40rem;
+
+}
+
+#imagen1 {
+    width: 850px;
+}
