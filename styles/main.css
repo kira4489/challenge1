@@ -40,8 +40,6 @@ html {
 .nav-bar ul li {
     display: inline-flex;
     justify-content: center;
-    /* position: 858px 26px; */
-    /* size: 87px 28px; */
     opacity: 100%;
     color: var(--primary-very-Dark-Blue);
     /* size: 16px; */
@@ -68,18 +66,12 @@ nav li a:hover {
     color: var(--primary-very-Dark-Blue);
     margin-top: 200px;
     margin-left: 50px;
-    font-weight: 400;
-    /* padding: 80px;
-    padding-top: 0;
-    margin-top: 29px;
-    letter-spacing: 0;
-    padding-bottom: 0;
-    margin-bottom: 24px; */
 }
 
 .art-welcome .welcome {
     margin-top: 20px;
     font-size: 30px;
+    margin-bottom: -20px;
 }
 
 .art-welcome .welcome2 {
@@ -88,28 +80,36 @@ nav li a:hover {
 }
 
 .boton-welcome button {
+    position: relative;
+    right: 10px;
+    top: -40px;
     width: 12%;
-    margin-top: 56px;
+    margin-top: 30px;
     margin-bottom: 5px;
-    height: 30px;
+    height: 35px;
     background-color: rgb(32, 128, 253);
+    border: hsl(224, 93%, 58%);
     color: white;
     border-radius: 3%;
     cursor: pointer;
 }
 
 .boton-welcome input {
+    position: relative;
+    right: 10px;
+    top: -40px;
     width: 20%;
     margin-top: 56px;
     margin-bottom: 5px;
-    height: 30px;
+    height: 33px;
+    text-align: center;
 }
 
 .parrafo {
     font-family: 'Open Sans', sans-serif;
     color: var(--primary-very-Dark-Blue);
     margin-top: 30px;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 .container {
@@ -169,22 +169,28 @@ nav li a:hover {
 
 .sec-get-early {
     position: relative;
-    left: -120px;
-    padding: 50px;
+    left: -70px;
     background-color: var(--primary-desaturated-Blue);
     color: white;
     font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
+    /* font-weight: 400; */
     
 }
 
 .sec-get-early h1 {
-    font-size: 30px;
-    margin-bottom: 10px;
+    position: relative;
+    font-size: 35px;
+    font-weight: 700;
+    top: 60px;
+    margin-bottom: 30px;
+    margin-left: 40px;
 }
 
 .sec-get-early p {
     position: relative;
+    font-size: 19px;
+    top: 60px;
+    margin-left: 40px;
 
 }
 
