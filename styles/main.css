@@ -154,3 +154,13 @@ nav li a:hover {
 .productive p{
     margin-top: 40px;
 }
+
+.sec-get-early {
+    position: relative;
+    left: -120px;
+    padding: 50px;
+    background-color: var(--primary-desaturated-Blue);
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
