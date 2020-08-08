@@ -143,6 +143,7 @@ nav li a:hover {
 .productive{
     margin-top: 280px;
     border: 1px solid red;
+    width: 45%;
 }
 
 .productive h2{
