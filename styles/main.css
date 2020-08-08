@@ -148,3 +148,15 @@ nav li a:hover {
     height: 50vh;
 
 }
+
+.sec-get-early {
+    position: relative;
+    left: -70px;
+    right: 120px;
+    padding: 70px;
+    background-color: var(--primary-desaturated-Blue);
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    
+
+}
