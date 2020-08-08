@@ -140,11 +140,17 @@ nav li a:hover {
     color: hsl(228, 45%, 44%);
 }
 
+.productive{
+    margin-top: 280px;
+    border: 1px solid red;
+}
 
-.parte-gris {
+.productive h2{
+    color: var(--primary-very-Dark-Blue);
+    text-transform: capitalize;
+    margin-bottom: 50px;
+}
 
-    position: relative;
-    background: #2c3e50;
-    height: 50vh;
-
+.productive p{
+    margin-top: 40px;
 }
