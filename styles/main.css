@@ -118,3 +118,13 @@ nav li a:hover {
 #imagen1 {
     width: 850px;
 }
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
