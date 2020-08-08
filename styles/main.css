@@ -163,6 +163,10 @@ nav li a:hover {
     color: var(--acent-moderate-Cyan);
 }
 
+.cuadro{
+    border: 1px solid red;
+}
+
 .sec-get-early {
     position: relative;
     left: -120px;
