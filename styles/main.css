@@ -30,6 +30,7 @@
   padding: 1em 0;
   display: flex;
   justify-content: space-between;
+  font-family: 'Open Sans',sans-serif;
 }
 
 .navbar ul li {
