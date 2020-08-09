@@ -205,7 +205,6 @@
   width: 300px;
   height: 200px;
   padding: 10px;
-  /* font-size: 15px;*/
 }
 
 .tarjeta p {
@@ -229,9 +228,14 @@
   margin-left: 20px;
 }
 
+form.get-early {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
 .sec-get-early {
   position: relative;
-  /* left: -120px; */
   padding: 50px;
   background-color: var(--primary-desaturated-Blue);
   color: white;
@@ -249,11 +253,11 @@
 }
 
 .form-get-stared {
+  margin-left: 800px;
+  margin-top: -200px;
   display: flex;
   flex-direction: column;
-  position: relative;
-  /* left: 910px; */
-  top: -103px;
+  
 }
 
 footer {
