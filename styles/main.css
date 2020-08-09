@@ -270,3 +270,9 @@ footer {
   justify-content: space-around;
   margin: auto;
 }
+
+.invert { filter: invert(100%); }
+
+.fab{
+    color: #fff;
+}
