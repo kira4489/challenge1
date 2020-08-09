@@ -274,3 +274,7 @@ footer {
 .fab {
   color: var(--neutral-Light-Grayish-Blue);
 }
+
+footer ul li{
+ list-style-type: none;
+}
