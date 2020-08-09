@@ -203,8 +203,8 @@
   margin-left: 50px;
   margin-bottom: 50px;
   width: 300px;
-  /* height: 300px; */
-  padding: 20px;
+  height: 200px;
+  padding: 10px;
   /* font-size: 15px;*/
 }
 
@@ -214,6 +214,7 @@
 
 .tarjeta img {
   border-radius: 50%;
+  width: 30%;
 }
 .tarjeta span {
   margin-top: -100px;
