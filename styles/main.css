@@ -57,14 +57,7 @@
   font-family: "Open Sans", sans-serif;
   color: var(--primary-very-Dark-Blue);
   margin-top: 200px;
-  /* margin-left: 50px; */
   font-weight: 400;
-  /* padding: 80px;
-    padding-top: 0;
-    margin-top: 29px;
-    letter-spacing: 0;
-    padding-bottom: 0;
-    margin-bottom: 24px; */
 }
 
 .art-welcome .welcome {
@@ -106,6 +99,7 @@
   cursor: pointer;
   width: 10%;
   margin-left: 20px;
+  border: rgb(77, 77, 248);
 }
 
 .boton-welcome input {
@@ -259,6 +253,23 @@ form.get-early {
   display: flex;
   flex-direction: column;
 }
+
+.form-get-stared input {
+  height: 30px;
+}
+
+.form-get-stared button {
+  margin-top: 20px;
+  height: 30px;
+  background-color: rgb(32, 128, 253);
+  color: white;
+  border-radius: 3%;
+  cursor: pointer;
+  width: 150px;
+  margin-left: 20px;
+  border: rgb(77, 77, 248);
+}
+
 
 footer {
   background: var(--primary-very-Dark-Blue);
